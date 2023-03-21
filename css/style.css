@@ -1,0 +1,170 @@
+/* regole debug */
+h1{
+    background-color: blue;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+}
+p{
+    background-color: teal;
+    width: 80%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.immagini{
+    background-color: red;
+    width: 300px;
+    height: 500px;
+}
+h2{
+    background-color: green;
+    width: 200px;
+    height: 100px;
+
+}
+h3{
+    background-color: violet;
+    width: 100px;
+    height: 20px;
+}
+
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header */
+header{
+    width: 100%;
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    
+
+}
+.accedi{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(183, 219, 0);
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+ul{
+    list-style: none;
+}
+.navigazione{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+/* regole jumbotron */
+#jumbodron{
+    width: 100%;
+    background-color: rgb(51, 123, 249);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.open{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(62, 0, 219);
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* regole main */
+.sezione {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 400px;
+    display: flex;
+    justify-content: center;
+}
+.descrizioni{
+    margin-left: 180px;
+
+}
+.reverse{
+    margin-right: 180px;
+
+}
+
+.trovarsi{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.tecnologia{
+    width: 100%;
+    
+}
+.info-tecnologia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tecnologia-lunga{
+width: 80%;
+height: 150px;
+background-color: red;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+/* regole footer */
+#info{
+    background-color: rgb(208, 189, 189);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-access{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 255, 170);
+    border-top: 2px solid black;
+}
+.logo-footer{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.open-footer{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(62, 0, 219);
+    margin: 0 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+
+
+}
