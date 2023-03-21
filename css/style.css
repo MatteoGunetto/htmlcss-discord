@@ -23,11 +23,11 @@
     height: 100px;
 
 } */
-h3{
+/* h3{
     background-color: violet;
     width: 100px;
     height: 20px;
-}
+} */
 
 /* regole generali */
 *{
@@ -205,36 +205,61 @@ h2{
 /* regole footer */
 #info{
     background-color: rgba(35, 39, 42, 1);
-    height: 200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    color: white;
+}
+.contatti{
+    width: 220px;
+    font-size: 24px;
+}
+#titolo-contatti{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: rgba(114, 137, 218, 1);
+}
+#italia{
+    width: 40px;
+    height: 20px;
+}
+.fa-brands{
+    padding: 2px;
+}
+h4{
+    color:rgba(114, 137, 218, 1);
+    margin-top: 20px;
+
+}
+li{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-access{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
-    height: auto;
     background-color: rgba(35, 39, 42, 1);
-    border-top: 2px solid rgb(41, 0, 0);
 }
+hr{
+    width: 80%;
+    height: 2px;
+    color:rgba(114, 137, 218, 1)
+}
+
 .logo-footer{
     width: 200px;
     height: 80px;
-    background-color: rgb(0, 0, 0);
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 50px; 
 }
-.open-footer{
-    width: 200px;
-    height: 80px;
-    background-color: rgb(62, 0, 219);
-    margin: 0 20px;
-    border-radius: 20px;
+
+.fondo-footer{
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 50px;
-
-
 }
