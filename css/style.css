@@ -72,7 +72,8 @@ ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 500px;
+    color:white
 
 }
 
@@ -111,7 +112,6 @@ h1{
     font-size: 20px;
 }
 
-
 .open {
     background-color: rgba(35, 39, 42, 1);
     margin-left: 20px;
@@ -132,25 +132,17 @@ h1{
     display: flex;
     /* justify-content: center; */
 }
-.immagini{
-    margin-left: 20%;
+.conteiner{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 h2{
     font-size: 50px;
-    width: 430px;
-    height: 200px;
-    text-align: start;
-
-}
-
-.descrizioni{
-    margin-left: 80px;
-
 }
 .testo{
     margin-top: 115px;
     font-size: 23px;
-    width: 60%;
 }
 /* sezione reverse */
 
@@ -160,12 +152,6 @@ h2{
     background-color: rgb(212, 223, 219);
 
 
-}
-.reverse{
-    margin-left: 20%;
-}
-.immagini-trovarsi{
-    margin-right: 20%;
 }
 /* sezione orizontale */
 .tecnologia{
@@ -201,13 +187,15 @@ h2{
     color: white;
 }
 
-
 /* regole footer */
 #info{
     background-color: rgba(35, 39, 42, 1);
     display: flex;
     justify-content: space-evenly;
     color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(114, 137, 218, 1);
 }
 .contatti{
     width: 220px;
@@ -234,7 +222,10 @@ li{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.footer{
+    width: 100%;
+    background-color:rgba(35, 39, 42, 1);
+    }
 .footer-access{
     display: flex;
     justify-content: space-evenly;
@@ -246,7 +237,6 @@ hr{
     height: 2px;
     color:rgba(114, 137, 218, 1)
 }
-
 .logo-footer{
     width: 200px;
     height: 80px;
