@@ -41,6 +41,10 @@
     border-radius: 20px;
     border-style: none;
 }
+li:hover, .bottone:hover{
+    color: brown;
+
+}
 
 
 /* regole header */
@@ -73,7 +77,8 @@ ul{
     display: flex;
     justify-content: space-between;
     width: 500px;
-    color:white
+    color:white;
+    ;
 
 }
 
@@ -134,8 +139,10 @@ h1{
 }
 .conteiner{
     display: flex;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 h2{
     font-size: 50px;
